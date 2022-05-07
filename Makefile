@@ -7,6 +7,5 @@ run: all
 clean:
 	rm bin
 
-%: clean
-	gcc $(CFLAGS) $(SRC) -o bin
-	./bin
+%.o: %.c
+	gcc $(CFLAGS) %.c
