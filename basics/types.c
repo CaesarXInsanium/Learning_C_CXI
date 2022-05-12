@@ -1,4 +1,5 @@
-#include <stdio.h> #include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int main() {
   char a = 'k';
@@ -23,7 +24,8 @@ int main() {
   int gh = 0;
   int *thing = malloc(sizeof(int));
 
-  union { struct {
+  union {
+    struct {
       int type;
     } n;
     struct {
