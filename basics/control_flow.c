@@ -6,6 +6,7 @@ int main() {
   puts("Hello World."); // expression-statements
   ;                     // Null statement, does nothing
   {                     // Compund statement
+  sdasdasdasd
     bool f = false;
     int c, a;
     static int count = 0;

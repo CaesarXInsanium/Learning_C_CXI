@@ -11,8 +11,9 @@ good reviews on Amazon. Also K&R is pretty old.
 
 ## Algorithms in C
 
-I hope to be able to add Notes on Algorithms
+~I hope to be able to add Notes on Algorithms~
+This is a separate repository.
 
 ## Practical C
 
-IDK
+I will be practicing using other projects.
