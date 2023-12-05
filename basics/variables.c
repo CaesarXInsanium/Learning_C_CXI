@@ -41,7 +41,7 @@ int main(){
   m = 8;
 
   int j; //scope of j begins
-  // calling a function here would have any varaible named j overshadow the outerscope j.
+  // calling a function here would have any variable named j overshadow the outerscope j.
   return 0;
 }
 

@@ -1,0 +1,31 @@
+#+TITLE: The C Programing Language
+#+AUTHOR: Caesar X Insanium
+
+* Purpose
+
+Learning ANSI C programming language. Get good at C programming. Learn of how much
+power that it has and be able to use it to level up my Nim programming.
+
+* Miscellaneous
+
+- ANSI refers to American National Standards Institute
+
+* Introduction
+
+- system's programming language, developed for use in Unix systems
+- language where most trivial luxuries are not provided built into the
+  language or must be defined externally with a standard library.
+- single threaded control by default
+- floating point is built into the language
+- C is a weakly typed language, because any thing and everything is a void
+  pointer.
+
+Standard library defines functions, constants and variables for basic interaction
+with the OS and basic IO.
+
+- Appendix A: language reference manual
+- Appendix B: Standard Library Reference
+- Appendix C: Changelog of Language Standards
+
+* Chapter 1: Tutorial
+
