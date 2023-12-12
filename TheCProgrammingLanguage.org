@@ -29,3 +29,69 @@ with the OS and basic IO.
 
 * Chapter 1: Tutorial
 
+** 1.1 Getting Started
+
+The chapter emphasizes the need to start with simple understandable programs before
+learning the nitty gritty of a language.
+
+#+begin_src c :tangle code/hello_world.c :mkdirp yes
+#include <stdio.h>
+
+main(void){
+  printf("Hello World!\n");
+  return 0;
+}
+#+end_src
+
+This simple functions prints hello world to the standard out in Unix systems. This
+code defines functions and constants for working with I/O stuff in standard library.
+defines a special function main and call a function =printf= that  writes characters
+to standard out.
+
+A string constant or character string is a literal that defines an array of characters
+for the program to work with.
+
+*** Exercises
+
+The GCC compiler is smart enough to now some that characters are missing in certain
+places. Sometimes it knows that in order to use some functions which header in
+include in the file in order to make a valid program.
+
+There is not that many escape codes in which to to add to the formatting argument.
+
+** 1.2 Variables and Arithmetic Expressions
+
+Simple code that defines some Fahrenheit values and their Celcius equivalents.
+
+#+begin_src c :tangle code/fahrenheit.c :mkdirp yes
+#include <stdio.h>
+
+main(){
+  int fahr, celcius;
+  int lower, upper, step;
+
+  lower = 0;
+  upper = 300;
+  step = 20;
+
+  fahr = lower;
+
+  while(fahr <= upper){
+    celcius = 5 * (fahr - 32) / 9;
+
+    printf("%d\t%d\n", fahr, celcius);
+    fahr = fahr - step;
+  }
+}
+#+end_src
+
+This bit of code just goes for a really long time does it not?
+
+The C programming language includes other things such as structures, pointers,
+arrays, functions. 
+
+Printf is not defined to the C languaghe but rather it is generally defined for the
+ANSI standard which defines a bunch of other useful functions and constants with
+predictable and similar behaviour accross implementations.
+
+C integer arightmetic is truncated.
