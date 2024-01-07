@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+CFLAGS="-std=gnu99 -Wall -Werror"
+CC=$(which gcc)
+TARGET_DIR=bin
+
+# compile the shit
+
+$CC $CFLAGS $@ -o result
+./result
